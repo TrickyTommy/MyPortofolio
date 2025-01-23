@@ -3,17 +3,23 @@ import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.webp";
 import Proj4 from "../assets/proj4.webp";
 import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj6 from "../assets/proj6.JPG";
 
 export const ProjectList = [
   {
     name: "Android Apps",
     image: Proj1,
-    skills:"Andorid,Kotlin"
+    skills:"Andorid,Kotlin",
   },
   {
-    name: "Ecomers Website",
+    name: "Absensi Siswa",
     image: Proj2,
+    skills:"HTML,CSS,Laravel,Filament",
+  },
+  {
+    name: "BMI Calculator",
+    image: Proj6,
+    skills:"HTML,CSS,JS",
   },
   {
     name: "Spotify Clone",
@@ -26,9 +32,5 @@ export const ProjectList = [
   {
     name: "Dashboard Visualizer",
     image: Proj5,
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
   },
 ];
